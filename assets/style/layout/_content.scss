@@ -1,0 +1,90 @@
+/* Vùng nội dung */
+.content{
+    background-color: var(--content-color);
+}
+
+.content__img:hover{
+    opacity: 0.6;
+}
+
+.content__list--text{
+    padding-top: 80px;
+}
+
+.content--headline{
+    
+    display: flex;
+    justify-content: center;
+    font-size: 2.8rem;
+}
+
+.content__headline--held{
+    padding-top: 20px;
+    margin: 0px 187px;
+    text-align: center;
+    font-size: 2.0rem;
+    padding-bottom: 30px;
+}
+
+.content__list--iteam{
+    background: var(--white-color);
+    border-radius: 20px;
+    padding: 0px 15px;
+    height:350px;
+    margin-bottom: 40px;
+}
+
+.content__img{
+    padding: 20px 0;
+    display: flex;
+    justify-content:center;
+}
+
+.content__img-0{
+    width: 81px;
+    height: 81px;
+}
+
+.content__text{
+    font-size: 2.4rem;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.content__text--0{
+    font-size: 2.0rem;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.content__text--1{
+    font-size: 1.6rem;
+    opacity: 0.8;
+    text-align: center;
+    padding: 0 10px 34px 10px;
+}
+
+.btn__content:hover{
+    border-radius:100px;
+    cursor: pointer;
+    border: 1px solid #000;
+    line-height: 40px;
+    background-color: var(--main-color);
+    color: var(--white-color)!important;
+}
+.btn__content{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    border-radius:100px;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #000;
+}
+
+.hot:hover{
+    cursor: pointer;
+    color: var(--main-color);
+}
+

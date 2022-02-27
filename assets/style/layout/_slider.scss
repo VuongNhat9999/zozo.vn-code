@@ -1,0 +1,66 @@
+.slider{
+    background-color: var(--main-color);
+    height: 500px;
+}
+
+.slider__contain{
+    height: 500px;
+    background-image: url('https://zozo.vn/public/theme/touched/images/bg/homebgsection.svg');
+}
+
+.slider__list{
+    height: 100%;
+
+}
+
+.slider__headline{
+    font-size:2.8rem;
+    color: var(--white-color);
+    margin-top: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.slider__headline--held{
+    font-size:1.6rem;
+    color: var(--gray-color);
+    text-align: center;
+    margin-left: 8px;
+    margin-bottom: 30px;
+    opacity: 0.8;
+}
+
+.slider__btn--links:hover, .slider__list--btn:hover{
+    color:var(--green-color);
+    background-color: var(--white-color);
+    cursor: pointer;
+    border-radius: 5px;
+}
+.slider__list--btn{
+    line-height: 60px;
+    background: var(--green-color);
+    color:var(--white-color);
+    display: flex;
+    margin: auto;
+    border: none;
+    width: 300px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.slider--held-01{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: var(--light-color);
+    opacity: 0.8;
+}
+
+.slider__btn--links{
+    display: inline-block;
+    width: 300px;
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 2.0rem;
+    text-align: center;
+}
